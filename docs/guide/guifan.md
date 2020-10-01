@@ -1,0 +1,56 @@
+# 规范
+## 样式规范(统一变量)
+- 建议全部使用shouwang内置scss变量，[参考主题]()
+- 抽离文件统一设置变量（方便统一使用`调色板变量`改颜色）
+   - $border--color：$red-1
+   - 色彩$color-primary: $blue-1
+   - 间距
+   - 投影
+   - padding
+   - 文字
+### 规范命名词汇
+- `warp` 组件容器
+- `nav` 导航
+- `content` 页面内容体
+- `selider` 侧栏
+- `main` 主要内容
+- `footer` 页脚
+## 命名
+- 文件夹：原则上一个主菜单为一个文件夹以`-`连接
+   - utils 工具类（写为首页目录结构）
+   - views 视图文件
+- 文件
+   - 组件以大驼峰形式`HelloWord`
+- 方法为小驼峰
+   - 下划线`_`标识引入的公共方法
+   - 获取列表`get开头`, 尽量语义化
+## 流程规范
+- 分支管理
+- 环境管理
+CICD持续集成
+   - 灰度区
+   - 体验区
+   - 稳定区
+## 编码规范
+- 期望基于`@ping/lint`
+- Airbnb javascript编码规范 eslint
+- 函数式编程
+   - 纯函数编程 易于观测 返现问题
+- 声明式
+- 命令式
+
+## 业务规范（shouwang规范）
+- 使用ping-cli创建项目demo，文件结构
+- 使用ping-webpack构建工具
+- 设计规范
+内置市场高频业务场景
+   - 设计与项目的匹配妥协，非特别业务，原则上设计遵从sw框架(提炼最佳实践)
+ 
+ <comment-comment/> 
+ 
+ 
+ <comment-comment/> 
+ 
+ 
+ <comment-comment/> 
+ 
