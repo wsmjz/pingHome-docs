@@ -1,6 +1,6 @@
 <template>
   <div class="setup">
-    <el-button round type="primary" icon="el-icon-view" @click="go">演示预览</el-button>
+    <el-button round type="primary" icon="el-icon-view" @click="go">主页设计</el-button>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
     }
     notify = this.$notify({
       title: "版本更新",
-      message: "v4.0 正式版已发布",
+      message: "v3.0 正式版发布",
       type: "success",
       duration: 3000,
     });

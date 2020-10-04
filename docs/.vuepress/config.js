@@ -1,9 +1,9 @@
 module.exports = {
-  title: '苹果家',
+  title: '苹果家+',
   description: '可能是你见过最完美的Vue组件示例文档解决方案',
   port: 8080,
   dest: './dist',
-  base: '/xdh-docs/',
+  base: '/',
   shouldPrefetch: () => false,
   themeConfig: {
     sidebarDepth: 3,
@@ -18,13 +18,13 @@ module.exports = {
       items: [{
         text: '项目',
         items: [{
-          text: 'ping-admin-vue',
+          text: 'apps-vue',
           link: '/community/schema'
         }, {
-          text: 'ping-admin-react',
+          text: 'apps-react',
           link: '/community/schema'
         }, {
-          text: 'ping-offical-vue(响应式)',
+          text: 'offical-vue(响应式)',
           link: '/community/schema'
         }, {
           text: 'ping-xcx',
@@ -42,25 +42,25 @@ module.exports = {
       }, {
         text: '资源',
         items: [{
-          text: 'vue-ui-components',
+          text: '@ping/ui-vue',
           link: '/community/vue_ui/ui'
         }, {
-          text: 'react-ui-components',
+          text: '@ping/ui-react',
           link: '/community/react_ui/ui'
         }, {
-          text: '基础资源ping-base-lib',
+          text: '@ping/dev-tool',
           link: '/community/schema'
         }, {
-          text: 'ping(核心，自动化配置)',
+          text: '@ping/ping(核心，自动化配置)',
           link: '/community/schema'
         }, {
-          text: '脚手架ping-cli',
+          text: '@ping/cli',
           link: '/community/schema'
         }, {
-          text: 'ping-lint',
+          text: '@ping/lint',
           link: '/community/schema'
         }, {
-          text: '打包工具ping-webpack',
+          text: '@ping/webpack',
           link: '/community/schema'
         }, {
           text: '校验库',

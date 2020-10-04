@@ -1,22 +1,27 @@
 # 脚本命令
-- dev
-- dev:test
-- build
-- build:test
-- test
-- prot
+- prot,help(ping --help)
 工程包含了一些开发辅助命令
 
 ## 安装依赖
 
-在互联网环境用 `npm install` 安装，如果安装不成功可以尝试用淘宝镜像
+- 在互联网环境用 `cnpm install` 安装;
+- 安装本地依赖
 
 ## 代码生成
 - 约定
+```js
+coder
+```
 
 ## 主题编译
+```js
+color
+```
 
 ## 启动开发环境
+```js
+dev
+```
 
 ## 自动路由
 ## 单元测试
@@ -34,6 +39,11 @@ npm run app add [name] [port]
 - dev
 - prod
 - test
+- build
+```sh
+npm run dev:test
+npm run build:test
+```
  
  <comment-comment/> 
  
