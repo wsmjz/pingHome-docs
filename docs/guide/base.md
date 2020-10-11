@@ -1,10 +1,9 @@
 # 介绍
 **你去寻得你所爱并为之守望**<br>
-**SW 是一个完整的一站式解决方案(开发系统) 提供：**
-> [响应式官网.预览](/offical)<br>
+**SW 是一个完整的一站式解决方案 提供：**
 > [shouwang演示](/shouwang)<br>
 > 驱动，项目建议规范<br>
-   - 通过 `@ping/ping-cli` 实现的交互式的项目脚手架。
+   - 通过 `@ping/cli` 实现的交互式的项目脚手架。
    - `@ping/ping` 一站式自动化解决方案
       - 配置文件 `ping.config.js（可选，）`
       - 代码生成
@@ -21,20 +20,29 @@
       - 中间件
    - `@ping/vue-home` 集成vue全家桶，可独立安装
    - `@ping/dev-tool` 开发工具集
+      拆分
       - 指令
       - 方法
    - `@ping/lint` 规范
-   <!-- - http-serve，axios搭建原始ajax
+
+   <!-- ```js
+   - http-serve，axios搭建原始ajax
    - http服务端，node中间件
-   - 开发性能监控 -->
-   - `@ping/ssr` 
+   - 开发性能监控
+   ``` -->
+
+   - `@ping/ssr`
+
+      <!-- ```js
       - 响应式模板
       - 小程序
+      - node 中间件
       - ssr等
+      ``` -->
 
    - `@ping/ui-vue` 原装vue组件库
    - `@ping/ui-react` 原装react组件库
-   - 自动配置安装官方webpack同用法（考虑是否开发`原装webpack`）
+   - 自动配置安装官方webpack同用法（或`@ping/webpack`）
    - `@ping/schame` 全局校验
    - `@ping/echarts` 图表
    - `@ping/map` 地图
@@ -42,17 +50,19 @@
    - `@ping/store` 状态机
    - `@ping/router` 路由系统
    - `@ping/date` 日期格式化 
-   - 一套丰富的常用插件集合
+   - 集成插件集
+   <!-- 一套丰富的常用插件集合 -->
    - 一个运行时依赖 `(@ping/cli-service)`，该依赖：
       - 可升级
       - 基于 webpack 构建，并带有合理的默认配置
       - 可以通过项目内的配置文件进行配置；
-      - 可以通过插件进行扩展。
+      - 可以通过插件进行扩展
+         - 命名
    
 
 
 **工程主应用可集成vue, react, jq项目**
-> vue 子应用 为原生 配合`@ping/v-ui` 实现<br>
+> vue 子应用 为原生 配合`@ping/ui-vue` 实现<br>
 > react 子应用为antd 实现UI层 <br>
 > jq 子应用实现 官网效果
 
@@ -103,8 +113,7 @@
 ## 实例扩展
 
 ## 业务模块集
-- 购物车
-- 地址管理
+`流程图`, `树结构`,`表单`, `表格列表`,`购物车`, `地址管理`等
 ## 权限校验
 - jwt登陆认证
 - 视图鉴权
