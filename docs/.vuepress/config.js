@@ -3,7 +3,7 @@ module.exports = {
   description: '可能是你见过最完美的Vue组件示例文档解决方案',
   port: 8080,
   dest: './dist',
-  base: '/xdh-docs/',
+  base: '/',
   shouldPrefetch: () => false,
   themeConfig: {
     sidebarDepth: 3,
