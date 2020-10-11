@@ -49,7 +49,7 @@ module.exports = {
           link: '/community/react_ui/ui'
         }, {
           text: '@ping/dev-tool',
-          link: '/community/schema'
+          link: '/community/dev-tool'
         }, {
           text: '@ping/ping(核心，自动化配置)',
           link: '/community/schema'
@@ -151,6 +151,13 @@ module.exports = {
         collapsable: true,
         children: [
           'ui'
+        ]
+      }],
+      '/community/': [{
+        title: 'dev-tool',
+        collapsable: true,
+        children: [
+          'dev-tool'
         ]
       }]
     }
