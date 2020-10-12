@@ -39,6 +39,8 @@ CICD持续集成
 - Airbnb javascript编码规范 eslint
 - js
 
+## 容错规范
+
 ## 业务规范（shouwang规范）
 - 使用`@ping/cli`创建项目demo，文件结构
 - 使用`@ping/webpack`构建工具
@@ -51,5 +53,14 @@ CICD持续集成
 <!-- (https://www.jianshu.com/p/f79c4e948954)
 代码回顾，审查，定时检查 -->
  
- <comment-comment/>
+## CodeReview规范（代码评审）
+- 完整性检查
+- 一致性检查
+- 正确性检查
+- 可修改性检查
+- 可预测性检查
+- 健壮性检查
+> 敏捷开发流程
+
+
  
