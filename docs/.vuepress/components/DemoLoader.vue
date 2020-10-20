@@ -29,11 +29,11 @@
         }
       }
     },
-    mounted() {
-      import(`../../../.my/${this.id}.vue`).then(res => {
-        this.component = res.default
-      })
-    }
+    // mounted() {
+    //   import(`../../../.my/${this.id}.vue`).then(res => {
+    //     this.component = res.default
+    //   })
+    // }
   }
 </script>
 
