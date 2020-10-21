@@ -161,24 +161,6 @@ module.exports = {
         ]
       }]
     }
-  },
-  markdown: {
-    lineNumbers: true,
-    extendMarkdown: require('@xdh/my/core/loaders/docs-extend-md-loader')
-  },
-  chainWebpack: chain => {
-    // 增加 ui 别名
-    chain.resolve.alias.set('$ui', '@xdh/my/ui/lib')
-
-    // 为了同时兼容 core-js 2.x 和 core-js 3.x
-    chain.resolve.alias.set('core-js/library', 'babel-runtime/node_modules/core-js/library')
-    chain.resolve.alias.set('core-js/fn', 'babel-runtime/node_modules/core-js/fn')
-    chain.resolve.alias.set('core-js/shim', 'babel-runtime/node_modules/core-js/shim')
-    chain.resolve.alias.set('core-js/core', 'babel-runtime/node_modules/core-js/core')
-    chain.resolve.alias.set('core-js/es5', 'babel-runtime/node_modules/core-js/es5')
-    chain.resolve.alias.set('core-js/es6', 'babel-runtime/node_modules/core-js/es6')
-    chain.resolve.alias.set('core-js/es7', 'babel-runtime/node_modules/core-js/es7')
-    chain.resolve.alias.set('core-js/client', 'babel-runtime/node_modules/core-js/client')
   }
 }
 

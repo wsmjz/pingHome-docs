@@ -24,11 +24,11 @@
         component: null
       }
     },
-    mounted() {
-      import(`../../../.my/${this.page}.vue`).then(res => {
-        this.component = res.default
-      })
-    }
+    // mounted() {
+    //   import(`../../../.my/${this.page}.vue`).then(res => {
+    //     this.component = res.default
+    //   })
+    // }
   }
 </script>
 

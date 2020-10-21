@@ -15,7 +15,7 @@
 - `selider` 侧栏
 - `main` 主要内容
 - `footer` 页脚
-## 命名
+## 命名规范
 - 文件夹：原则上一个主菜单为一个文件夹以`-`连接
    - utils 工具类（写为首页目录结构）
    - views 视图文件
@@ -39,8 +39,6 @@ CICD持续集成
 - Airbnb javascript编码规范 eslint
 - js
 
-## 容错规范
-
 ## 业务规范（shouwang规范）
 - 使用`@ping/cli`创建项目demo，文件结构
 - 使用`@ping/webpack`构建工具
@@ -49,11 +47,9 @@ CICD持续集成
 内置市场高频业务场景
    - 设计与项目的匹配妥协，非特别业务，原则上设计遵从sw框架(提炼最佳实践)
 
-## CodeReview规范
+## CodeReview规范（代码评审）
 <!-- (https://www.jianshu.com/p/f79c4e948954)
 代码回顾，审查，定时检查 -->
- 
-## CodeReview规范（代码评审）
 - 完整性检查
 - 一致性检查
 - 正确性检查
