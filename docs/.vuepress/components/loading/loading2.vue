@@ -1,23 +1,28 @@
 <template>
-    <div class="sticky-container">
-   <div class="blurfield">
-     <div class="ball1"></div>
-     <div class="ball2"></div>
-   </div>
- </div>
+  <div class="sticky-container">
+    <div class="blurfield">
+      <div class="ball1"></div>
+      <div class="ball2"></div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
-    .sticky-container {
+.sticky-container {
   background: #000;
   overflow: hidden;
-  
+
   .blurfield {
+    position: absolute;
+    width: 36%;
+    z-index: 1;
+    right: 0;
+    top: 67px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #502f6f;
     filter: blur(10px) contrast(30);
   }
 
