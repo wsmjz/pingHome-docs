@@ -115,7 +115,9 @@ module.exports = {
         title: 'shouwang指南',
         collapsable: true,
         children: [
+          'intr',
           'base',
+          'jingjie',
           'app',
           'coder',
           'cmd',
