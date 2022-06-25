@@ -4,18 +4,12 @@
 
 ## 基础色板
 
-Shouwang 3.x 使用 [Ant Design](https://ant.design/docs/spec/colors-cn) 提供的的基础色板
+sailfish 使用 [Ant Design](https://ant.design/docs/spec/colors-cn) 提供的的基础色板
 
-<Colors></Colors>
+<!-- <Colors></Colors> -->
 
 ## 中性色板
 
-Shouwang 3.x 的中性色主要应用在界面的文字、背景、边框、分割线、等
+sailfish 的中性色主要应用在界面的文字、背景、边框、分割线、等
 
-<NeutralColors></NeutralColors>
-
-
-
- 
-
- 
+<!-- <NeutralColors></NeutralColors> -->

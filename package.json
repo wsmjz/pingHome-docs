@@ -1,26 +1,15 @@
 {
   "name": "pinghome-docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "core-js": "^2.6.11",
-    "element-ui": "^2.13.1",
-    "highlight.js": "^10.0.3",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2",
-    "three": "^0.118.3"
-  },
   "devDependencies": {
-    "vuepress": "^1.6.0",
-    "webpack": "^4.43.0",
-    "webpack-dev-server": "^3.11.0"
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "core-js": "^2.6.12",
+    "element-ui": "^2.15.8",
+    "three": "^0.140.2"
   }
 }

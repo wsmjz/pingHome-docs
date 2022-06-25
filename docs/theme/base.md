@@ -8,8 +8,7 @@
 通用配置是经过实践得出最合适的规范，建议任何主题都应该遵从。
 
 ### 字体
-:::demo(theme-1)
-```html
+<Demo>
 <template>
    <table>
       <tr>
@@ -22,50 +21,46 @@
        <td>主标题</td>
        <td>$--font-size-extra-large</td>
        <td>30px</td>
-       <td><span class="font-size-extra-large">Shouwang 3.x 文字样本</span></td>
+       <td><span class="font-size-extra-large">文字预览效果</span></td>
      </tr>
      <tr>
        <td>标题</td>
        <td>$--font-size-large</td>
        <td>24px</td>
-       <td><span class="font-size-large">Shouwang 3.x 文字样本</span></td>
+       <td><span class="font-size-large">文字预览效果</span></td>
      </tr>
      <tr>
        <td>小标题</td>
        <td>$--font-size-medium</td>
        <td>20px</td>
-       <td> <span class="font-size-medium">Shouwang 3.x 文字样本</span></td>
+       <td> <span class="font-size-medium">文字预览效果</span></td>
      </tr>
     <tr>
        <td>正文（ 大 ）</td>
        <td>$--font-size-normal</td>
        <td>18px</td>
-       <td> <span class="font-size-normal">Shouwang 3.x 文字样本</span></td>
+       <td> <span class="font-size-normal">文字预览效果</span></td>
      </tr>
      <tr>
        <td>正文</td>
        <td>$--font-size</td>
        <td>16px</td>
-       <td><span class="font-size">Shouwang 3.x 文字样本</span></td>
+       <td><span class="font-size">文字预览效果</span></td>
      </tr>
       <tr>
        <td>正文（ 小 ）</td>
         <td>$--font-size-small</td>
         <td>14px</td>
-        <td><span class="font-size-small">Shouwang 3.x 文字样本</span></td>
+        <td><span class="font-size-small">文字预览效果</span></td>
       </tr>
       <tr>
         <td>辅助文字</td>
         <td>$--font-size-extra-small</td>
         <td>12px</td>
-        <td><span class="font-size-extra-small">Shouwang 3.x 文字样本</span></td>
+        <td><span class="font-size-extra-small">文字预览效果</span></td>
       </tr>
    </table>
 </template>
-
-<script>
-
-</script>
 
 <style>  
   table {
@@ -96,12 +91,10 @@
   }
 </style>
 
-```
-::::
+</Demo>
 
 ### 行高
-:::demo(theme-2)
-```html
+<Demo>
 <template>
   <table>
      <tr>
@@ -114,31 +107,47 @@
       <td>宽松</td>
        <td>$--line-height-large</td>
        <td>2em</td>
-       <td class="line-height-large"><span v-for="n in 20" :key="n">文字样本</span></td>
+       <td class="line-height-large"><span v-for="n in 20" :key="n">文字预览效果</span></td>
     </tr>
     <tr>
       <td>常规</td>
        <td>$--line-height-normal</td>
        <td>1.5em</td>
-       <td class="line-height-normal"><span v-for="n in 20" :key="n">文字样本</span></td>
+       <td class="line-height-normal"><span v-for="n in 20" :key="n">文字预览效果</span></td>
     </tr>
     <tr>
       <td>紧凑</td>
        <td>$--line-height-small</td>
        <td>1.3em</td>
-       <td class="line-height-small"><span v-for="n in 20" :key="n">文字样本</span></td>
+       <td class="line-height-small"><span v-for="n in 20" :key="n">文字预览效果</span></td>
     </tr>
       <tr>
         <td>无行高</td>
          <td>$--line-height-none</td>
          <td>1em</td>
-         <td class="line-height-none"><span v-for="n in 20" :key="n">文字样本</span></td>
+         <td class="line-height-none"><span v-for="n in 20" :key="n">文字预览效果</span></td>
       </tr>
     </table>
 </template>
-
-```
-:::
+<style>  
+  table {
+     display: table;
+     width: 100%;
+  }
+  .line-height-large{
+    line-height: 2em;
+  }
+  .line-height-normal{
+    line-height: 1.5em;
+  }
+  .line-height-small{
+    line-height: 1.3em;
+  }
+  .line-height-none{
+    line-height: 1em;
+  }
+</style>
+</Demo>
 
 
 

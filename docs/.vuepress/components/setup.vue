@@ -1,22 +1,12 @@
 
 <template>
   <div class="wave-bg">
-    <Yyang></Yyang>
-    <loading2></loading2>
     <div class="my-wave" :style="styles"></div>
   </div>
-  <!-- <el-button round type="primary" icon="el-icon-view" @click="go">主页设计</el-button> -->
 </template>
 
 <script>
-  import Yyang from "./yy/index";
-  import loading1 from "./loading/loading1";
-  import loading2 from "./loading/loading2";
 
-  /**
-   * 波浪特效
-   * @module $ui/components/my-wave
-   */
   import {addResizeListener, removeResizeListener} from 'element-ui/lib/utils/resize-event'
   import {on, off} from 'element-ui/lib/utils/dom'
 
@@ -47,11 +37,6 @@
         default: 'red'
         // default: '#097bdb'
       }
-    },
-    components: {
-      Yyang,
-      loading1,
-      loading2
     },
     data() {
       return {
@@ -135,7 +120,7 @@
       }
       notify = this.$notify({
         title: "版本更新",
-        message: "v3.0 预测版",
+        message: "内测版",
         type: "success",
         duration: 3000,
       });

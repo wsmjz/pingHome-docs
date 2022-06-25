@@ -1,6 +1,6 @@
 module.exports = {
   title: '苹果家+',
-  description: '可能是你见过最完美的Vue组件示例文档解决方案',
+  // description: '可能是你见过最完美的Vue组件示例文档解决方案',
   port: 8080,
   dest: './dist',
   base: '/',
@@ -9,7 +9,7 @@ module.exports = {
     sidebarDepth: 3,
     nav: [{
       text: '指南',
-      link: '/guide/base'
+      link: '/guide/intr'
     }, {
       text: '主题规范',
       link: '/theme/color'
@@ -17,74 +17,97 @@ module.exports = {
       text: '生态系统',
       items: [{
         text: '项目',
-        items: [{
-          text: 'apps-vue',
-          link: '/community/schema'
-        }, {
-          text: 'apps-react',
-          link: '/community/schema'
-        }, {
-          text: 'offical-vue(响应式)',
-          link: '/community/schema'
-        }, {
-          text: 'ping-xcx',
-          link: '/community/schema'
-        }, {
-          text: 'H5商城',
-          link: '/community/schema'
-        }, {
-          text: '@ping/vue-home',
-          link: '/community/schema'
-        }, {
-          text: '@ping/react-home',
-          link: '/community/schema'
-        }]
+        items: [
+        // {
+        //   text: 'apps-vue',
+        //   link: '/community/schema1'
+        // }, {
+        //   text: 'apps-react',
+        //   link: '/community/schema'
+        // }, {
+        //   text: 'offical-vue(响应式)',
+        //   link: '/community/schema11'
+        // }, {
+        //   text: 'ping-xcx',
+        //   link: '/community/schema112'
+        // }, {
+        //   text: 'H5商城',
+        //   link: '/community/schema1121'
+        // }, {
+        //   text: '@ping/vue-home',
+        //   link: '/community/schema11221'
+        // }, {
+        //   text: '@ping/react-home',
+        //   link: '/community/schema12211'
+        // }
+        {
+          text: 'sailfish-pro',
+          link: '/community/vue_ui/ui1'
+        },
+        {
+          text: 'butterfly',
+          link: '/community/vue_ui/ui1'
+        },
+        {
+          text: '青鸟',
+          link: '/community/vue_ui/ui1'
+        }
+      ]
       }, {
         text: '资源',
         items: [{
-          text: '@ping/ui-vue',
-          link: '/community/vue_ui/ui'
+          text: '插件',
+          link: '/community/vue_ui/ui1'
         }, {
-          text: '@ping/ui-react',
-          link: '/community/react_ui/ui'
+          text: 'loader',
+          link: '/community/vue_ui/ui11'
+        }, {
+          text: '@ping/beautify-ui-vue',
+          link: '/community/vue_ui/ui221'
+        }, {
+          text: '@ping/beautify-ui-react',
+          link: '/community/react_ui/ui11221'
+        }, {
+          text: '@ping/dophin-ui',
+          link: '/community/react_ui/ui11221'
         }, {
           text: '@ping/dev-tool',
           link: '/community/dev-tool'
         }, {
-          text: '@ping/ping(核心，自动化配置)',
-          link: '/community/schema'
+          text: '@ping/rice',
+          link: '/community/schema141115'
         }, {
           text: '@ping/cli',
-          link: '/community/schema'
+          link: '/community/schema14111'
         }, {
           text: '@ping/lint',
-          link: '/community/schema'
+          link: '/community/schema1411'
         }, {
           text: '@ping/webpack',
-          link: '/community/schema'
+          link: '/community/schema22211'
         }, {
           text: '校验库',
-          link: '/community/schema'
+          link: '/community/schema24241'
         }, {
           text: '状态管理',
-          link: '/community/schema'
+          link: '/community/schema24245'
         }, {
           text: '路由',
-          link: '/community/schema'
+          link: '/community/schema242422'
         }, {
           text: '日期',
-          link: '/community/schema'
+          link: '/community/schema112111w3'
         }, {
           text: '图表',
-          link: '/community/schema'
+          link: '/community/schema2221111'
         }, {
           text: '地图',
-          link: '/community/schema'
+          link: '/community/schema22111'
         }, {
           text: '关系流程图',
-          link: '/community/schema'
+          link: '/community/schema1221'
         }]
-      }, 
+      }
       // {
       //   text: 'vue-charts',
       //   link: '/community/vue_ui/index'
@@ -101,23 +124,27 @@ module.exports = {
       text: '日志',
       link: '/journal'
     }, {
-      text: '学习笔记',
+      text: '文章',
       link: '/note'
     }, {
       text: '空间',
       link: '/space/base'
+    }, {
+      text: '音乐汇',
+      link: '/music'
     }, {
       text: '创想',
       link: '/idea'
     }],
     sidebar: {
       '/guide/': [{
-        title: 'shouwang指南',
-        collapsable: true,
+        // title: 'Sailfish-工程规划',
+        title: '旗鱼-Sailfish',
+        collapsable: false,
         children: [
           'intr',
-          'base',
-          'jingjie',
+          // 'base',
+          // 'jingjie',
           'app',
           'coder',
           'cmd',
