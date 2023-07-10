@@ -82,7 +82,7 @@ CICD持续集成
    - revert 撤销修改
    - test 测试相关
    - docs 文档/注释
-   - chore 依赖更新/脚手架配置修改等
+   - chore 依赖更新/脚手架配置修改等 与功能无关
    - workflow 工作流改进
    - ci 持续集成
    - mod 不确定分类的修改
