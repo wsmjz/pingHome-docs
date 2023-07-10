@@ -33,9 +33,31 @@ psf c my-app
 > 内置超千个图标
 - vr(基于three再封装简易3D库) -->
 
+## 推荐开发环境
+> 工欲善其事 必先利其器
+```js
+// 要求
+// 1. 安装fnm 管理node版本
+/bin/bash -C "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+
+// 切换源 nrm
+npm install nrm -g
+npm config set registry [registry url]
+npm config get registry
+npm cache clean --force  // 清除缓存
+npm install -g cnpm --registry=https://registry.npm.taobao.org   # 全局安装 cnpm
+
+// 2. 安装learn pnpm管理项目
+
+// 3. 快速删除node_modules文件
+npm i rimraf -g
+
+// 4. 安装nodeman
+```
 
 ## 工具环境配置
 - vs code 常用插件 配置见下
+   - 安装eslint
 - 浏览器插件 `米诺` (账号管理，bug)
 - 快速删除node_modules
 ```sh
